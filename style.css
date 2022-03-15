@@ -12,7 +12,32 @@ html {
 }
 
 h1 {
-  text-transform: capitalize;
   font-size: 3rem;
   color: #e2dbdb;
+}
+
+hr {
+  border-color: #00c3ff;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.btn {
+  font-family: 700;
+  border-radius: 300px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #00c3ff;
+  border-color: #00c3ff;
+}
+
+.btn-primary:hover {
+  background-color: #ff9100;
+  border-color: #ff9100;
+  border-width: 2px;
 }
